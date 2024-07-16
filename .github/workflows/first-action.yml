@@ -2,7 +2,7 @@ name: first Workflow
 on: workflow_dispatch
 jobs:
   first-job:
-    runs-on: ubunut-latest
+    runs-on: ubunut:latest
     steps:
     - name: Print greeting
       run: echo "Hello World!!!"
